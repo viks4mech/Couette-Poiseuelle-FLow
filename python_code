@@ -1,0 +1,299 @@
+make sure to open terminal in the same directory.
+type ipython in terminal window
+copy entire code
+paste in terminal
+press enter.
+
+you see one by one all the plots apperaing, once you close one plot you see the other. 
+/////////////////////////////////////////////
+/////////couette poiseulli flow//////////////
+////////////////////////////////////////////
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_001.dat')
+b=np.loadtxt('Case_01_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 1')
+plt.plot(b[:,1],b[:,0],'r',label='case1 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_002.dat')
+b=np.loadtxt('Case_02_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 2')
+plt.plot(b[:,1],b[:,0],'r',label='case2 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_003.dat')
+b=np.loadtxt('Case_03_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 3')
+plt.plot(b[:,1],b[:,0],'r',label='case3 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_004.dat')
+b=np.loadtxt('Case_04_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 4')
+plt.plot(b[:,1],b[:,0],'r',label='case4 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_005.dat')
+b=np.loadtxt('Case_05_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 5')
+plt.plot(b[:,1],b[:,0],'r',label='case5 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_006.dat')
+b=np.loadtxt('Case_06_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 6')
+plt.plot(b[:,1],b[:,0],'r',label='case6 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_007.dat')
+b=np.loadtxt('Case_07_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 7')
+plt.plot(b[:,1],b[:,0],'r',label='case7 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_008.dat')
+b=np.loadtxt('Case_08_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 8')
+plt.plot(b[:,1],b[:,0],'r',label='case8 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_009.dat')
+b=np.loadtxt('Case_09_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 9')
+plt.plot(b[:,1],b[:,0],'r',label='case9 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_010.dat')
+b=np.loadtxt('Case_10_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 10')
+plt.plot(b[:,1],b[:,0],'r',label='case10 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_011.dat')
+b=np.loadtxt('Case_11_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 11')
+plt.plot(b[:,1],b[:,0],'r',label='case11 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_012.dat')
+b=np.loadtxt('Case_12_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 12')
+plt.plot(b[:,1],b[:,0],'r',label='case12 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_013.dat')
+b=np.loadtxt('Case_13_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 13')
+plt.plot(b[:,1],b[:,0],'r',label='case13 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_014.dat')
+b=np.loadtxt('Case_14_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 14')
+plt.plot(b[:,1],b[:,0],'r',label='case14 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_015.dat')
+b=np.loadtxt('Case_15_El_Telbany.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 15')
+plt.plot(b[:,1],b[:,0],'r',label='case15 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_016.dat')
+b=np.loadtxt('Case_16_Gilliot_Couette.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 16')
+plt.plot(b[:,1],b[:,0],'r',label='case16 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_017.dat')
+b=np.loadtxt('Case_17_Gilliot_Intermediate.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 17')
+plt.plot(b[:,1],b[:,0],'r',label='case17 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+plt.rcParams.update({'font.size': 11}) #Font 11
+
+a=np.loadtxt('test_case_018.dat')
+b=np.loadtxt('Case_18_Gilliot_Poiseuil.dat')
+
+plt.plot(a[:,1],a[:,0],'b',label='case 18')
+plt.plot(b[:,1],b[:,0],'r',label='case18 experimental')
+
+plt.ylabel('y/h')
+plt.xlabel('u/u(b)')
+plt.title('velocity distirbution in plane turbulent channel flow')
+plt.legend()
+plt.show()
+///////////////////////////////////////////
