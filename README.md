@@ -60,3 +60,23 @@ program structure:
 1) routine of thomas that takes 3 values and gets answer
 2) main program to use different cases and gets the 
 3) a routine for turbulent model to compute turbulent viscosity
+
+
+TO COMPILE:
+1) to compile the modules:
+
+gfortran -c grid.f90
+gfortran -c nu_turbulent.f90
+gfortran -c thomas.f90
+
+2) To compile the main program:
+
+gfortran grid.o nu_turbulent.o thomas.o couettegilcommented.f90 -o couette.exe
+
+3) To run the program:
+
+./couette.exe
+
+
+There is a separate code written to get the plots using python. you can use the code with file name python_code and copy and paste after you put all the data of the computed values in the plot folder.
+
