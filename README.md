@@ -13,12 +13,18 @@ objective:
 
 capture important details from the papers such as formulaes
 
-final results expected:
+Final results expected from the project:
+
 1)report
+
 2)make program using finite volume (should behypothese: readable/ with comments)
+
 3)make 1 programm for all 18 cases taken for 18 papers
+
 4)make computation for 15 cases of EL.TELBANY
+
 5) make comptation for 3 cases of GILLIOT
+
 6) get results for veloity and other parameters
 
 compare results and analyse the results, if there is ant deviation from the standard try to give reasons for the deviation.
