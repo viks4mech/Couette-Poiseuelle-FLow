@@ -48,17 +48,26 @@ hypothes:
 form continuity we get du/dx is zero
 problem 
 
-solution with finite volume:
+Steps of solution with finite volume:
+
 1)discretize in the y-direction the mesh-(frinctional velocity related to the dy near wall) in 1-d
+
 2)finite volume works on conservation laws.
+
 3)solve equation mesh by mesh
+
 4)integrate the equation the final equation wrt y-direction, use S-south and N-north for the integration limits
+
 5)effect the equation to the centre of the mesh.
+
 6)program the centre of the grid points of the discretised points
-)
+
+
 program structure:
 1) routine of thomas that takes 3 values and gets answer
+
 2) main program to use different cases and gets the 
+
 3) a routine for turbulent model to compute turbulent viscosity
 
 
