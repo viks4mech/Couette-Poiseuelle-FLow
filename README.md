@@ -1,5 +1,5 @@
 # Couette-Poiseuelle-FLow
-2-D simulation to perform Couette Poiseulle Flow simulation using mixing length model
+1-D simulation to perform Couette Poiseulle Flow simulation using mixing length model
 
 objective:
 1)model coutte poiselle flow, copute results and find out how good the results are?
@@ -8,7 +8,7 @@ objective:
   to download the reference papers
   go to coutte-poiselle practice
   a) experimental data
-  b) fortra program to generate
+  b) fortran program to generate velocity profile
   c) reference papers
 
 capture important details from the papers such as formulaes
